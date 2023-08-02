@@ -1,0 +1,222 @@
+<!-- 
+regex practice  -->
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var text = "its not funny";
+    var regex1 = new RegExp("not")
+    var regex = "/not/";
+   var result1 = regex1.test(text);
+   console.log(result1);
+</script>
+</html> -->
+
+<!-- cookie -->
+<!-- 
+<html>
+   <head>
+      
+      <script type = "text/javascript">
+         
+            function WriteCookie()
+            {
+               if( document.myform.customer.value == "" ){
+                  alert("Enter some value!");
+                  return;
+               }
+               cookievalue= escape(document.myform.customer.value) + ";";
+               document.cookie="name=" + cookievalue;
+               document.write ("Setting Cookies : " + "name=" + cookievalue );
+            }
+         
+      </script>
+      
+   </head>
+   
+   <body>
+   
+      <form name="myform" action="">
+         Enter name: <input type="text" name="customer"/>
+         <input type="button" value="Set Cookie" onclick="WriteCookie();"/>
+      </form>
+   
+   </body>
+</html> -->
+
+<!-- dialog boxes all three typres -->
+
+<!-- alert -->
+<!-- <html>
+    <head>
+    
+       <script type="text/javascript">
+          
+             function Warn() {
+                alert ("This is a warning message!");
+                document.write ("This is a warning message!");
+             }
+          s
+       </script>
+       
+    </head>
+    <body>
+       <p>Click the following button to see the result: </p>
+       
+       <form>
+          <input type="button" value="Click Me" onclick="Warn();" />
+       </form>
+       
+    </body>
+ </html> -->
+
+ <!-- confimation boxes -->
+
+ <!-- <html>
+   <head>
+   
+      <script type="text/javascript">
+         
+            function getConfirmation(){
+               var retVal = confirm("Do you want to continue ?");
+               if( retVal == true ){
+                  document.write ("User wants to continue!");
+                  return true;
+               }
+               else{
+                  document.write ("User does not want to continue!");
+                  return false;
+               }
+            }
+         
+      </script>
+      
+   </head>
+   <body>
+      <p>Click the following button to see the result: </p>
+      
+      <form>
+         <input type="button" value="Click Me" onclick="getConfirmation();" />
+      </form>
+      
+   </body>
+</html> -->
+
+<!-- this is the prompt dialoge box  -->
+<!-- 
+<html>
+   <head>
+      
+      <script type="text/javascript">
+         
+            function getValue(){
+               var retVal = prompt("Enter your name : ", "your name here");
+               document.write("You have entered : " + retVal);
+            }
+     
+      </script>
+      
+   </head>
+   
+   <body>
+      <p>Click the following button to see the result: </p>
+      
+      <form>
+         <input type="button" value="Click Me" onclick="getValue();" />
+      </form>
+      
+   </body>
+</html> -->
+
+
+
+<!-- there are twoways to make an object with the new object method or user defined way that like the constrictor stufff in java -->
+
+<!-- 
+<html>
+   <head>
+   <title>User-defined objects</title>
+   
+      <script type="text/javascript">
+         // Define a function which will work as a method
+         function addPrice(amount){
+            this.price = amount; 
+         }
+         
+         function book(title, author){
+            this.title = title;
+            this.author  = author;
+            this.addPrice = addPrice; // Assign that method as property.
+         }
+      </script>
+      
+   </head>
+   <body>
+   
+      <script type="text/javascript">
+         var myBook = new book("Perl", "Mohtashim");
+         myBook.addPrice(100);
+         
+         document.write("Book title is : " + myBook.title + "<br>");
+         document.write("Book author is : " + myBook.author + "<br>");
+         document.write("Book price is : " + myBook.price + "<br>");
+      </script>
+      
+   </body>
+</html> -->
+
+<!-- enabling -->
+<!-- for in loops 
+
+    <html>
+   <body>
+      
+      <script type="text/javascript">
+        
+            var aProperty;
+            document.write("Navigator Object Properties<br /> ");
+         
+            for (aProperty in vendor) {
+               document.write(aProperty);
+               document.write("<br />");
+            }
+            document.write ("Exiting from the loop!");
+         
+      </script>
+      
+      <p>Set the variable to different object and then try...</p>
+   </body>
+</html> -->
+
+<!-- try and catch (13 -->
+<html>
+    <head>
+       
+       <script type="text/javascript">
+          <!--
+             function myFunc()
+             {
+                var a = 100;
+                alert("Value of variable a is : " + a );
+             }
+          //-->
+       </script>
+       
+    </head>
+    
+    <body>
+       <p>Click the following to see the result:</p>
+       
+       <form>
+          <input type="button" value="Click Me" onclick="myFunc();" />
+       </form>
+       
+    </body>
+ </html>

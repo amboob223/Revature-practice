@@ -1,0 +1,37 @@
+-I learened how to use regex with a constructor new to search for things
+-The simplest way to create a cookie is to assign a string value to the document.cookie object, which looks like this.
+-document.cookie = "key1=value1;key2=value2;expires=date";
+
+- to make the cookie 
+    make a write cookie function 
+    then in the if statment do document.the name of the form and then
+    then the name of the input denoted by dots then the value you got to use
+    escape to get rid of semicolons and stuff.
+    -use document escape and write
+    you can delete a cookie or set the expiry date
+
+- Dialog box
+    -alert
+        -use the warn function 
+    -confimation
+        -use Confim method,
+    -prompt dialog boxes
+        -uses the prompt method 
+- return 
+
+-object
+    encapsulation.inheritence,polymorphism,aggregation
+-enabling
+    -when you can turn on an off javascript in a browser
+-syntax all the syntax goes inbetween the scripot tag and its recomemnded o keep this inbetween the head tags 
+    Script tags take two attributes type and language 
+        - the langiuage is for selcting the scripting language which willin our case mostly be js 
+        - the type is for "text/javascript"
+-for -in loops can find varibles in a class 
+-arrays     
+    -go over some of the array methods and make some in js 
+-errors 
+    - syntax error / occur when the data is being parsed
+    -runtime error/ occur after execution also called exceptions   
+    - logical errors/ You alone cannot track these types of errors 
+    -try/catch can only catch  allow you to catch runtime and  logical errors but not 
